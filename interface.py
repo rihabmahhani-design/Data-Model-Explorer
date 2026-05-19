@@ -29,7 +29,7 @@ st.markdown("""
 
 
 # --- 2. CONNEXION NEO4J ---
-URI = "bolt://localhost:7687"
+URI = "neo4j+s://415e98bb.databases.neo4j.io " #URI = "bolt://localhost:7687"
 AUTH = ("neo4j", "Neo4jTest")
 
 @st.cache_resource
